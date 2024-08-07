@@ -1,0 +1,32 @@
+	pip install pipenv
+	pip install virtualenv
+
+create a project : 
+	mkdir my_django_project
+	cd my_django_project
+
+	python -m venv env
+	env\Scripts\activate or venv\Scripts\activate
+
+	pip install django
+
+	django-admin startproject myproject
+
+
+run the project:::::
+	cd myproject
+	python manage.py runserver
+
+Open your web browser and navigate to http://127.0.0.1:8000/
+
+
+
+
+for only run:::::
+	env\Scripts\activate    or    venv\Scripts\activate
+	cd myproject
+	python manage.py runserver
+
+
+	
+
